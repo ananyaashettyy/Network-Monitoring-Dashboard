@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Enhanced Network Monitoring Dashboard
+---
+A **Next.js-based Network Monitoring Dashboard** that allows you to monitor multiple websites in real-time, displaying latency, HTTP status codes, response size, and more. The dashboard also includes live charts, dark/light theme, and notifications for website downtime.
 
-## Getting Started
+---
 
-First, run the development server:
+
+##  Features
+
+- **Real-time Monitoring**: Ping multiple URLs and get live latency, HTTP status, and response size.
+- **Latency History Charts**: Line charts showing response trends over time.
+- **Multiple URLs Support**: Enter multiple URLs separated by commas.
+- **Status Indicators**: ✅ up, ❌ down, ⏳ in progress.
+- **Remove / Reset URLs**: Manage the list of monitored websites interactively.
+- **Dark / Light Mode**: Toggle between themes for better readability.
+- **Browser Notifications**: Alerts when a website goes down.
+- **Performance Metrics**: Displays latency (ms), HTTP status, and response size (bytes).
+
+---
+
+##  Tech Stack
+
+- **Frontend**: React.js / Next.js  
+- **Backend**: Vercel serverless API routes  
+- **Charts**: Chart.js / Recharts  
+- **Deployment**: Vercel  
+- **Styling**: CSS Flexbox / Grid  
+
+---
+
+##  Installation & Setup
+
+1. Clone the repository:
 
 ```bash
+git clone https://github.com/ananyaashettyy/Network-Monitoring-Dashboard.git
+```
+```bash
+cd Network-Monitoring-Dashboard
+```
+2. Install dependencies:
+```bash
+npm install
+```
+```bash
+npm install react-chartjs-2 chart.js axios
+```
+3. Run the development server:
+```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Browser runs by default at: **http://localhost:3000**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+##  Display
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="853" height="850" alt="Screenshot 2025-08-30 170019" src="https://github.com/user-attachments/assets/86b87160-5858-4d80-8de2-7506d548d83e" />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+<img width="912" height="809" alt="Screenshot 2025-08-30 170458" src="https://github.com/user-attachments/assets/191da393-a41f-4caa-9d97-87d470fece40" />
+
+
+
+##  License
+
+This project is open source under the **MIT License**.  
+You are free to use, modify, and distribute this software with attribution.  
+
+```text
+MIT License
+
+Copyright (c) 2025 Ananya R Shetty
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+[...rest of MIT License text...]
+```
+
